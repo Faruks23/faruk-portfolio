@@ -98,3 +98,36 @@ body{
     opacity: 0.9;  
     font-family: Poppins, sans-serif;
 }
+
+
+
+.skill-share li{
+    /* margin: 10px 12px; */
+    line-height: 55px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow: var(--inner-shadow);
+    cursor: pointer;
+}
+.skill-share li:hover{
+  background: rgb(65, 153, 65);
+  transition: all 0.5s ease-in-out;
+}
+
+.social-share li a svg {
+    color: var(--color-lightn);
+    transition: var(--transition);
+    stroke-width: 2;
+    position: relative;
+    z-index: 2;
+    width: 20px;
+}
