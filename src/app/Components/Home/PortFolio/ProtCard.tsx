@@ -21,7 +21,7 @@ const ProtCard = () => {
         </div>
 
         <div className="p-title">
-          <h2 className="text-2xl font-semibold mt-5 hover:text-green-500 duration-200">{"NFT Dashboard Application Development."}</h2>
+          <h2 className="text-[22px] font-semibold mt-5 hover:text-green-500 duration-200">{"NFT Dashboard Application Development."}</h2>
         </div>
 
 

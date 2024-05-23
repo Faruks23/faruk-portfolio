@@ -1,4 +1,5 @@
 import Hero from "./Components/Home/Hero/Hero";
+import MyResume from "./Components/Home/MyResume/MyResume";
 import PortFolio from "./Components/Home/PortFolio/PortFolio";
 import WhatIdo from "./Components/Home/WhatIdo/WhatIdo";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero></Hero>
       <WhatIdo></WhatIdo>
       <PortFolio></PortFolio>
+      <MyResume></MyResume>
     </main>
   );
 }
