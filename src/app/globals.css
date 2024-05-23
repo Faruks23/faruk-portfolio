@@ -149,13 +149,13 @@ body{
     display: inline-block;
     color: rgb(34 197 94 /1);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 14px;
     font-family: var(--font-secondary);
     font-weight: 500;
     box-shadow: var(--inner-shadow);
-    padding: 3px 15px;
-    margin-bottom: 0px;
+    padding: 5px 15px;
+  
     position: relative;
 }
 span.dot::after{
@@ -165,8 +165,8 @@ span.dot::after{
  height: 5px;
  background:  rgb(34 197 94 /1);
  z-index: 3;
- top: 10px;
- left: 3px;
+ top: 14px;
+ left: 5px;
  border-radius: 100%;
 }
 
