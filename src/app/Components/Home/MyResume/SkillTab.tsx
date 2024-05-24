@@ -108,7 +108,7 @@ const SkillTab = () => {
       <div className="flex w-full flex-col">
         <Tabs className='w-full display-inherit' aria-label="Options">
           <Tab key="Frontend" title="Frontend">
-            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-16  gap-5 md:gap-6  lg:gap-10 ">
+            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-5  gap-5 md:gap-6  lg:gap-10 ">
               {Frontend.map(item => {
                 return <SkillCard skill={item} key={item.name + 1}></SkillCard>
               })
@@ -118,7 +118,7 @@ const SkillTab = () => {
             </div>
           </Tab>
           <Tab key="Backend" title="Backend">
-            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-16   gap-5 md:gap-6  lg:gap-10 ">
+            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-5   gap-5 md:gap-6  lg:gap-10 ">
               {Backend.map(item => {
                 return <SkillCard skill={item} key={item.name + 1}></SkillCard>
               })
@@ -128,7 +128,7 @@ const SkillTab = () => {
             </div>
           </Tab>
           <Tab key="Tools" title="Tools">
-            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-16  gap-5 md:gap-6  lg:gap-10 ">
+            <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 mt-5  gap-5 md:gap-6  lg:gap-10 ">
               {tools.map(item => {
                 return <SkillCard skill={item} key={item.name + 1}></SkillCard>
               })
