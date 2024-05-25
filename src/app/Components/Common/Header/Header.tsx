@@ -10,27 +10,28 @@ const Header = () => {
       name: 'Home',
       path: '/'
     },
-    {
-      name: 'Portfolio',
-      path: '/portfolio'
-    },
+    
     {
       name: 'Services',
-      path: '/services'
+      path: '#service'
+    },
+    {
+      name: 'Portfolio',
+      path: '#portfolio'
     },
     {
       name: 'About',
-      path: '/about'
+      path: '#about'
     },
     {
-      name: 'Contact',
-      path: '/contact'
+      name: 'Skill',
+      path: '#skill'
     },
   ]
 
   return (
     <div>
-      <Navbar shouldHideOnScroll={true}  className=' sd-1 bg-2'>
+      <Navbar   className=' sd-1 bg-2 !gap-20 fixed top-0 left-0 w-full z-40'>
         <NavbarBrand>
           <AcmeLogo />
           <p className="font-bold text-inherit">ACME</p>
@@ -58,8 +59,8 @@ const Header = () => {
         <NavbarContent justify="end">
           
           <NavbarItem>
-            <Button as={Link} href="#" className='  rounded-md bg-transparent text-green-500 in-sd-1'>
-              Heir {"=>"}
+            <Button as={Link} href="#contact" className='  rounded-md bg-transparent text-green-500 in-sd-1 font-bold'>
+              Contact 
             </Button>
           </NavbarItem>
         </NavbarContent>

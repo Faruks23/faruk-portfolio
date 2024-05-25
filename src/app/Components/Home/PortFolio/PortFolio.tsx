@@ -10,7 +10,7 @@ const PortFolio = () => {
 
 
   return (
-    <div className=' mt-20 md:mt-[100px]'>
+    <div id='portfolio' className=' mt-20 md:mt-[100px]'>
       <div className="prot-title flex justify-center !text-center">
         <SectionTitle title='My Portfolio' subtitle='VISIT MY PORTFOLIO'></SectionTitle>   
       </div>

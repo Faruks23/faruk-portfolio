@@ -5,7 +5,7 @@ import ProfileCard from './ProfileCard';
 const About = () => {
   return (
     <>
-      <div className="mt-20 md:mt-[100px] ">
+      <div id='about' className="mt-20 md:mt-[100px] ">
         <div className="prot-title flex justify-center !text-center md:mt-5">
           <SectionTitle
             title="Who am I?"

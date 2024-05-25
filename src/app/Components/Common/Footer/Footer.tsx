@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
           <div className=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 md:gap-32 w-full md:w-[80%]  md:mt-0 ">
             <div>
-              <h3 className="text-red-600 mb-4">QUICK LINK</h3>
+              <h3 className="text-green-600 font-bold mb-4">QUICK LINK</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:underline">About</a></li>
                 <li><a href="#" className="hover:underline">Portfolio</a></li>
@@ -42,7 +42,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-green-600 mb-4">RESOURCES</h3>
+              <h3 className="text-green-600 font-bold mb-4">RESOURCES</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:underline">Authentication</a></li>
                 <li><a href="#" className="hover:underline">System Status</a></li>
@@ -52,7 +52,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-red-600 mb-4">DEVELOPERS</h3>
+              <h3 className="text-green-600 font-bold mb-4">DEVELOPERS</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:underline">Documentation</a></li>
                 <li><a href="#" className="hover:underline">Authentication</a></li>

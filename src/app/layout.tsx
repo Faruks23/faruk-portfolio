@@ -5,6 +5,7 @@ import NextUiProvider from "@/app/Components/NextUIProvider/NextUIProvider";
 import Header from "./Components/Common/Header/Header";
 import Footer from "./Components/Common/Footer/Footer";
 import SmoothScrollWrapper from "./Components/SmoothScroll/SmothScroll";
+import CursorFlower from "./utils/CoursorFlower";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NextUiProvider>
+          <CursorFlower />
           <SmoothScrollWrapper>
             <Header></Header>
             {children}

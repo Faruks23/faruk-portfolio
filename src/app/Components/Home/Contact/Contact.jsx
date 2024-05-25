@@ -4,7 +4,7 @@ import SectionTitle from '../../Common/SectionTitle/SectionTitle';
 
 const Contact = () => {
   return (
-    <div className=" my-10">
+    <div id='contact' className=" my-10">
       <div className="prot-title flex justify-center !text-center">
         <SectionTitle
           title=" Contact With Me"

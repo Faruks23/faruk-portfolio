@@ -57,7 +57,7 @@ const WhatIdo = () => {
   ];
 
   return (
-    <div className=' mt-20 md:mt-[150px]'>
+    <div id='service' className=' mt-20 md:mt-[150px]'>
       <SectionTitle title='What I Do' subtitle='FEATURES'></SectionTitle>
       <div className="what-ido-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 md:gap-8 mt-16  justify-items-center place-content-center">
         {

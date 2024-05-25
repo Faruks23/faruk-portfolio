@@ -5,7 +5,10 @@ import { FaFacebookF, FaLinkedinIn, FaStar, FaTwitter } from 'react-icons/fa';
 export default function ProfileCard() {
   return (
     <div className="flex items-center justify-center  ">
-      <div className=" text-white rounded-lg p-5 md:px-8 md:flex md:space-x-8">
+      <div  data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration='1000' className=" text-white rounded-lg p-5 md:px-8 md:flex md:space-x-8">
         <div className=" md:w-[25%] sd-1 ">
           <div className="mb-4 flex flex-col items-center p-4 in-sd-1 h-[250px]">
             <Image

@@ -9,7 +9,7 @@ import About from "./Components/Home/About/About";
 
 export default function Home() {
   return (
-    <main className=" container mx-auto py-1">
+    <main className=" container mx-auto py-1 pt-20">
       <Hero></Hero>
       <WhatIdo></WhatIdo>
       <PortFolio></PortFolio>

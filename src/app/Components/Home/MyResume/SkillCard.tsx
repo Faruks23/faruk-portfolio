@@ -26,7 +26,7 @@ const SkillCard = ({skill,index}:any) => {
         <div className="p-title  mt-10">
           <h2 className="text-[22px] font-semibold mt-3 hover:text-green-500 duration-200">{skill.name}</h2>
         </div>
-        <p className=' text-[14px] text-[#c4cfde] '> { skill.description}</p>
+        <p className=' text-[14px] text-[#c4cfde]  mt-5'> { skill.description}</p>
 
 
 
