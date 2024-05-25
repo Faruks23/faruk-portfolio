@@ -1,10 +1,11 @@
 import { Heart } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
-const ProtCard = () => {
+const ProtCard = ({item}:any) => {
   return (
-    <>
+    <Link href={item.link}>
       <div
         data-aos="fade-up"
         data-aos-offset="100"
@@ -13,8 +14,8 @@ const ProtCard = () => {
 
         className=" what-i-do-card  md:h-[450px] p-4 md:w-[400px] rounded-md ">
         <div className="mb-4 overflow-hidden  flex justify-center">
-          <div className=" mb-2 ">
-            <Image width={340} height={250} src={'https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/portfolio-large-01-340x250.jpg'} alt="icon" className=' rounded-md hover:scale-105 duration-250 w-full p-2 in-sd-1'></Image>
+          <div className=" mb-2 h-[250px] ">
+            <Image width={340} height={250} src={item.image} alt="icon" className=' rounded-md hover:scale-105 duration-250 w-full p-2 in-sd-1 h-full'></Image>
           </div>
 
         </div>
@@ -27,14 +28,14 @@ const ProtCard = () => {
         </div>
 
         <div className="p-title">
-          <h2 className="text-[22px] font-semibold mt-5 hover:text-green-500 duration-200">{"NFT Dashboard Application Development."}</h2>
+          <h2 className="text-[22px] font-semibold mt-5 hover:text-green-500 duration-200">{item.name}</h2>
         </div>
 
 
 
       </div>
 
-    </>
+    </Link>
   );
 };
 

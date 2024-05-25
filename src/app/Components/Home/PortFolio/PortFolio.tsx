@@ -6,7 +6,38 @@ import ProtCard from './ProtCard';
 
 const PortFolio = () => {
 
-  const [selectedId, setSelectedId] = useState(null)
+  const PortFolio = [
+    {
+      name: 'Zeyox Studio',
+      image: '/Home-Zeyox.png',
+      link:'https://zeyoxstudio.com/'
+    },
+    {
+      name: 'Organic Store',
+      image: '/Organic-Store.png',
+      link:'https://organic-store-delta.vercel.app/'
+    },
+    {
+      name: 'Exam Result',
+      image: '/result.png',
+      link:'https://modern-result.vercel.app/'
+    },
+    {
+      name: 'Zeyox Studio',
+      image: '/Home-Zeyox.png',
+      link:'https://zeyoxstudio.com/'
+    },
+    {
+      name: 'Zeyox Studio',
+      image: '/Home-Zeyox.png',
+      link:'https://zeyoxstudio.com/'
+    },
+    {
+      name: 'Zeyox Studio',
+      image: '/Home-Zeyox.png',
+      link:'https://zeyoxstudio.com/'
+    },
+  ]
 
 
   return (
@@ -15,12 +46,11 @@ const PortFolio = () => {
         <SectionTitle title='My Portfolio' subtitle='VISIT MY PORTFOLIO'></SectionTitle>   
       </div>
       <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 md:mt-20 gap-10">
-        <ProtCard />
-        <ProtCard />
-        <ProtCard />
-        <ProtCard />
-        <ProtCard />
-        <ProtCard />
+        {PortFolio.map((item,index )=> {
+          return <ProtCard item={item} key={index+1} />
+        
+        })}
+        
       </div>
     </div>
   );

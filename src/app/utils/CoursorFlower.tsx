@@ -19,7 +19,7 @@ export default function CursorFlower() {
 
   return (
     <>
-      <div id="cursor" className='cursor  z-50  overflow-hidden mix-blend-difference'>
+      <div id="cursor" className='cursor  z-50  overflow-hidden mix-blend-difference hidden md:block'>
         <Image className='object-cover' src={'https://img.fruugo.com/product/6/66/935785666_0340_0340.jpg'} width={90} height={90} alt='flag'  ></Image>
       </div>
       
