@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar shouldHideOnScroll className=' sd-1 bg-2'>
+      <Navbar shouldHideOnScroll={true}  className=' sd-1 bg-2'>
         <NavbarBrand>
           <AcmeLogo />
           <p className="font-bold text-inherit">ACME</p>

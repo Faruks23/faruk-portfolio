@@ -38,7 +38,10 @@ export default function ContactForm() {
         position="top-center"
         reverseOrder={false}
       />
-      <div className="min-h-screen flex items-center justify-center ">
+      <div data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration='1000' className="min-h-screen flex items-center justify-center ">
         <div className=" text-white rounded-lg  md:flex space-x-8 w-full px-5 md:px0">
           <div className=" md:w-1/3 sd-1">
             <div className="  in-sd-1 p-6 rounded-lg mb-4">

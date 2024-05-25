@@ -1,12 +1,16 @@
 
 import React from 'react';
 
-const SkillCard = ({skill}:any) => {
+const SkillCard = ({skill,index}:any) => {
 
   
   return (
     <>
-      <div className=" what-i-do-card  lg:h-[300px] p-4  lg:w-[300px] rounded-md ">
+      <div data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration={`${index*400}`}
+        className=" what-i-do-card  lg:h-[300px] p-4  lg:w-[300px] rounded-md ">
         <div className="mb-2 overflow-hidden  flex ">
           
             <div className="h-20 w-20 mb-2 rounded-full  p-2 in-sd-1  flex  items-center">

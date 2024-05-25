@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGit } from 'react-icons/fa';
 const LeftHero = () => {
   return (
     <>
@@ -26,13 +26,16 @@ const LeftHero = () => {
                 <span className=" subtitle">find with me</span>
                 <ul className=" flex gap-6 sm:gap-5 items-center skill-share ">
                   <li className="facebook">
-                    <a href="#" title="facebook.Name">                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a target='_blank' href="https://web.facebook.com/faruksp.fk/"    title="facebook">                                                                             <FaFacebookF className=' w-6 h-6'></FaFacebookF>
+                      </a>
                   </li>
-                  <li className="facebook">
-                    <a href="#" title="facebook.Name">                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                  <li className="Linkedin">
+                    <a target='_blank' href="https://www.linkedin.com/in/md-omar-faruk-3b89a3190/"
+                      title="Linkedin">                                                                             <FaLinkedinIn className=' w-6 h-6'></FaLinkedinIn>
+                      </a>
                   </li>
-                  <li className="facebook">
-                    <a href="#" title="facebook.Name">                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                  <li className="GitHub">
+                    <a href="https://github.com/Faruks23" title="GitHub">                                                                             <FaGit className=' w-6 h-6'></FaGit></a>
                   </li>
 
                 </ul>

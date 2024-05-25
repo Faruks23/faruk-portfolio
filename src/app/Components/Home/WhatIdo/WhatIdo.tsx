@@ -62,7 +62,7 @@ const WhatIdo = () => {
       <div className="what-ido-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 md:gap-8 mt-16  justify-items-center place-content-center">
         {
           webDevelopmentTopics.map((topic,index) => {
-          return <Card topic={topic} key={index+1}></Card>
+          return <Card  topic={topic} index={index} key={index+1}></Card>
         })
           
           }

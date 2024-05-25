@@ -5,7 +5,13 @@ import React from 'react';
 const ProtCard = () => {
   return (
     <>
-      <div className=" what-i-do-card  h-[450px] p-4 w-[400px] rounded-md ">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration='1000'
+
+        className=" what-i-do-card  h-[450px] p-4 w-[400px] rounded-md ">
         <div className="mb-4 overflow-hidden  flex justify-center">
           <div className=" mb-2 ">
             <Image width={340} height={250} src={'https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/portfolio-large-01-340x250.jpg'} alt="icon" className=' rounded-md hover:scale-105 duration-250'></Image>

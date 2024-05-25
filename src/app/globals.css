@@ -50,6 +50,9 @@ body{
   min-height: 100vh;
   font-family: var(--font-secondary) !important;
 }
+p{
+  font-family:Poppins,sans-serif;
+}
 
 .bg-2{
   background:var(--background-color-2);
@@ -194,5 +197,11 @@ p.dot::after{
  color: white !important;
 }
 .bg-background {
-    background-color: black !important;
+    background-color: rgba(27, 24, 24, 0.76) !important;
+    box-shadow: var(--inner-shadow);
+    padding: 20px !important;
+    font-weight: 700;
+}
+.p-1 {
+  padding:20px ;
 }

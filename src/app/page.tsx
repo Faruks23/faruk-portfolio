@@ -4,6 +4,7 @@ import PortFolio from "./Components/Home/PortFolio/PortFolio";
 import WhatIdo from "./Components/Home/WhatIdo/WhatIdo";
 import Contact from "./Components/Home/Contact/Contact";
 import Line from "./Components/Common/Line";
+import About from "./Components/Home/About/About";
 
 
 export default function Home() {
@@ -15,7 +16,10 @@ export default function Home() {
       <Line></Line>
       <MyResume></MyResume>
       <Line></Line>
+      <About></About>
+      <Line></Line>
       <Contact></Contact>
+      
      
     </main>
   );
