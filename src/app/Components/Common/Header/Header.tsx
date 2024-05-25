@@ -34,7 +34,7 @@ const Header = () => {
       <Navbar   className=' sd-1 bg-2 !gap-20 fixed top-0 left-0 w-full z-40'>
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
+          <p className="font-bold text-inherit">Faruk</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           {NavLink.map(link => {
