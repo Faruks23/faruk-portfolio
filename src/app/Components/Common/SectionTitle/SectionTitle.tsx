@@ -8,7 +8,9 @@ const SectionTitle = ({subtitle,title}:{subtitle:string,title:string}) => {
         <h2 data-aos="fade-up"
           data-aos-offset="100"
           data-aos-delay="50"
-          data-aos-duration='1000' className="title sec-title ">{title}
+          data-aos-duration='1000' className="title sec-title pb-1 ">
+          <span className='hover-underline-animation'> {title}</span>
+         
         </h2>
       </div>
     </>

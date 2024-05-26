@@ -58,8 +58,10 @@ const WhatIdo = () => {
 
   return (
     <div id='service' className=' mt-20 md:mt-[150px]'>
-      <SectionTitle title='What I Do' subtitle='FEATURES'></SectionTitle>
-      <div className="what-ido-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 md:gap-8 mt-16  justify-items-center place-content-center">
+      <div className='px-5 md:px-0'>
+        <SectionTitle title='What I Do' subtitle='FEATURES'></SectionTitle>
+     </div>
+      <div className="what-ido-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 md:gap-8 mt-16  justify-items-center place-content-center">
         {
           webDevelopmentTopics.map((topic,index) => {
           return <Card  topic={topic} index={index} key={index+1}></Card>

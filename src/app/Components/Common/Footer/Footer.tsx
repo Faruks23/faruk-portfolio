@@ -18,47 +18,47 @@ export default function Footer() {
               className="rounded-full in-sd-1  p-10"
             />
             <span className="mt-2">INBIO</span>
-            <div className="flex mt-4 space-x-4">
-              <a href="#" className="p-5 in-sd-1 rounded-full hover:bg-gray-700">
+            <div className="flex mt-6 gap-5 items-center ">
+              <a target='_blank' href="https://web.facebook.com/faruksp.fk/" className="p-5 in-sd-1 rounded-full hover:bg-gray-700">
                 <FaFacebookF />
               </a>
               <a href="#" className="p-5 in-sd-1   rounded-full hover:bg-gray-700">
                 <FaTwitter />
               </a>
-              <a href="#" className="p-5 in-sd-1   rounded-full hover:bg-gray-700">
+              <a target='_blank' href="https://www.linkedin.com/in/md-omar-faruk-3b89a3190/" className="p-5 in-sd-1   rounded-full hover:bg-gray-700">
                 <FaLinkedinIn />
               </a>
             </div>
           </div>
-          <div className=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 md:gap-32 w-full md:w-[80%]  md:mt-0 ">
+          <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-10 md:gap-32 w-full md:w-[80%]  md:mt-0 mt-5 ">
             <div>
               <h3 className="text-green-600 font-bold mb-4">QUICK LINK</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:underline">About</a></li>
-                <li><a href="#" className="hover:underline">Portfolio</a></li>
-                <li><a href="#" className="hover:underline">Services</a></li>
-                <li><a href="#" className="hover:underline">Blog</a></li>
-                <li><a href="#" className="hover:underline">Contact</a></li>
+                <li><a href="#" className="hover-underline-animation">About</a></li>
+                <li><a href="#" className="hover-underline-animation">Portfolio</a></li>
+                <li><a href="#" className="hover-underline-animation">Services</a></li>
+                <li><a href="#" className="hover-underline-animation">Blog</a></li>
+                <li><a href="#" className="hover-underline-animation">Contact</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-green-600 font-bold mb-4">RESOURCES</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:underline">Authentication</a></li>
-                <li><a href="#" className="hover:underline">System Status</a></li>
-                <li><a href="#" className="hover:underline">Terms of Service</a></li>
-                <li><a href="#" className="hover:underline">Pricing</a></li>
-                <li><a href="#" className="hover:underline">Over Right</a></li>
+                <li><a href="#" className="hover-underline-animation">Authentication</a></li>
+                <li><a href="#" className="hover-underline-animation">System Status</a></li>
+                <li><a href="#" className="hover-underline-animation">Terms of Service</a></li>
+                <li><a href="#" className="hover-underline-animation">Pricing</a></li>
+                <li><a href="#" className="hover-underline-animation">Over Right</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-green-600 font-bold mb-4">DEVELOPERS</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:underline">Documentation</a></li>
-                <li><a href="#" className="hover:underline">Authentication</a></li>
-                <li><a href="#" className="hover:underline">API Reference</a></li>
-                <li><a href="#" className="hover:underline">Support</a></li>
-                <li><a href="#" className="hover:underline">Open Source</a></li>
+                <li><a href="#" className="hover-underline-animation">Documentation</a></li>
+                <li><a href="#" className="hover-underline-animation">Authentication</a></li>
+                <li><a href="#" className="hover-underline-animation">API Reference</a></li>
+                <li><a href="#" className="hover-underline-animation">Support</a></li>
+                <li><a href="#" className="hover-underline-animation">Open Source</a></li>
               </ul>
             </div>
           </div>

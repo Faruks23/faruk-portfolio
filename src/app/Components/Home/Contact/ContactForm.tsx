@@ -42,7 +42,7 @@ export default function ContactForm() {
         data-aos-offset="100"
         data-aos-delay="50"
         data-aos-duration='1000' className="min-h-screen flex items-center justify-center ">
-        <div className=" text-white rounded-lg  md:flex space-x-8 w-full px-5 md:px0">
+        <div className=" text-white rounded-lg  md:flex gap-8 w-full px-5 md:px0">
           <div className=" md:w-1/3 sd-1">
             <div className="  in-sd-1 p-6 rounded-lg mb-4">
               <Image
@@ -56,7 +56,7 @@ export default function ContactForm() {
             <div className='p-5 md:p-4'>
               <h2 className="text-xl font-bold">Md.Faruk</h2>
               <p className="text-gray-400">Full Stack Developer</p>
-              <p className="mt-2">I am available for freelance work. Connect with me via and call in to my account.</p>
+              <p className="mt-2">I am available for freelance work. Connect with me via Email and call in to my account.</p>
               <div className="mt-4">
                 <p>Phone: <a href="tel:+8801617549583" className="text-blue-400">+8801617549583</a></p>
                 <p>Email: <a href="mailto:mdfaruksp2@gmail.com" className="text-blue-400">mdfaruksp2@gmail.com</a></p>

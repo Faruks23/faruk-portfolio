@@ -34,14 +34,17 @@ const Header = () => {
       <Navbar   className=' sd-1 bg-2 !gap-20 fixed top-0 left-0 w-full z-40'>
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">Faruk</p>
+          <p className="font-bold text-inherit hover-underline-animation">Faruk</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           {NavLink.map(link => {
             return (
               <>
                 <NavbarItem>
-                  <Link color="foreground" href={link.path}>
+                  <Link data-aos="zoom-in"
+                    data-aos-offset="50"
+                    data-aos-delay="50"
+                    data-aos-duration='1000' color="foreground" className='hover-underline-animation uppercase text-[#c4cfde]' href={link.path}>
                     {link.name}
                   </Link>
                 </NavbarItem>
