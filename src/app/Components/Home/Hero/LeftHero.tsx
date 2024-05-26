@@ -17,7 +17,7 @@ const LeftHero = () => {
                   data-aos-offset="50"
                   data-aos-delay="50"
                   data-aos-duration='1000' className=" subtitle">find with me</span>
-                <ul className=" flex lg:gap-6 sm:gap-2 items-center skill-share ">
+                <ul className=" flex lg:gap-6 gap-2 items-center skill-share ">
                   <li data-aos="zoom-in"
                     data-aos-offset="50"
                     data-aos-delay="50"
