@@ -10,7 +10,7 @@ const MobileNave = () => {
         {NavLink.slice(0,4).map(link => {
           return (
             <>
-              <li className=' flex flex-col justify-center items-center  p-2  in-sd-1 rounded-md w-[70px]'>
+              <li className=' flex flex-col justify-center items-center  p-2  in-sd-1 rounded-2xl w-[70px]'>
                  {link?.icon}
                 <Link data-aos="zoom-in"
                   data-aos-offset="50"
