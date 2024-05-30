@@ -5,7 +5,7 @@ import React from 'react';
 
 const ProtCard = ({item}:any) => {
   return (
-    <Link href={item.link}>
+    <Link href={item.link} target='_blank'>
       <div
         data-aos="fade-up"
         data-aos-offset="100"
