@@ -17,7 +17,7 @@ export default function Footer() {
               height={50}
               className="rounded-full in-sd-1  p-10"
             />
-            <span className="mt-2">INBIO</span>
+           
             <div className="flex mt-6 gap-5 items-center ">
               <a target='_blank' href="https://web.facebook.com/faruksp.fk/" className="p-5 in-sd-1 rounded-full hover:bg-gray-700">
                 <FaFacebookF />
@@ -30,15 +30,15 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-10 md:gap-32 w-full md:w-[80%]  md:mt-0 mt-5 ">
+          <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-10 lg:gap-32 w-full md:w-[80%]  md:mt-0 mt-5 ">
             <div>
               <h3 className="text-green-600 font-bold mb-4">QUICK LINK</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover-underline-animation">About</a></li>
-                <li><a href="#" className="hover-underline-animation">Portfolio</a></li>
-                <li><a href="#" className="hover-underline-animation">Services</a></li>
+                <li><a href="#about" className="hover-underline-animation">About</a></li>
+                <li><a href="#portfolio" className="hover-underline-animation">Portfolio</a></li>
+                <li><a href="#service" className="hover-underline-animation">Services</a></li>
                 <li><a href="#" className="hover-underline-animation">Blog</a></li>
-                <li><a href="#" className="hover-underline-animation">Contact</a></li>
+                <li><a href="#contact" className="hover-underline-animation">Contact</a></li>
               </ul>
             </div>
             <div>

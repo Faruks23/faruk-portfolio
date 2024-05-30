@@ -8,8 +8,8 @@ export default function ProfileCard() {
       <div  data-aos="fade-up"
         data-aos-offset="100"
         data-aos-delay="50"
-        data-aos-duration='1000' className=" text-white rounded-lg p-5 md:px-8 md:flex md:space-x-8">
-        <div className=" md:w-[25%] sd-1 ">
+        data-aos-duration='1000' className=" text-white rounded-lg p-5 lg:px-8 md:flex md:gap-8">
+        <div className=" lg:w-[25%] sd-1 ">
           <div className="mb-4 flex flex-col items-center p-4 in-sd-1 h-[250px]">
             <Image
               src={'/contact1.png'}
@@ -38,7 +38,7 @@ export default function ProfileCard() {
             </div>
           </div>
         </div>
-        <div className=" w-full md:w-2/3  rounded-lg  md:pt-[100px]  relative ">
+        <div className=" w-full lg:w-2/3  rounded-lg   md:pt-[80px] lg:pt-[100px]  relative ">
           
           <div className='  mt-10 md:mt-0 sd-1   md:p-8 p-4 md:h-[350px]'>
             <h3 className="text-xl font-bold mb-2 text-[#c4cfde]">Full Stack Web Developer</h3>
@@ -50,7 +50,7 @@ export default function ProfileCard() {
                 ))}
               </div>
             </div>
-            <p className="text-[#c4cfde] mt-1">
+            <p className="text-[#c4cfde] mt-1 md:text-[13px] lg:text-base">
               As a proficient web developer, I bring a comprehensive skill set that encompasses HTML, CSS, and JavaScript, laying a solid foundation for crafting engaging and visually appealing web experiences. With expertise in front-end frameworks like React.js and Next.js, I specialize in building dynamic and responsive user interfaces that elevate user engagement and satisfaction.
               My proficiency extends to the backend as well, where I excel in utilizing technologies like Express.js and Node.js to create robust server-side solutions. Leveraging MongoDB and Mongoose, I design efficient database schemas and implement seamless data management strategies, ensuring optimal performance and scalability for web applications.
             </p>

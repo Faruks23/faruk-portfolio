@@ -5,11 +5,11 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGit, FaGithub } from 'react-ico
 const LeftHero = () => {
   return (
     <>
-      <div className="left-hero-content md:w-[50%] mt-[10%] md:mt-0">
+      <div className="left-hero-content md:w-[50%] mt-[10%] md:mt-0 lg:px-5 xl:px-0  ">
         <AnimatedText></AnimatedText>
 
 
-        <div className="bottom-hero mt-[90px] md:mt-[100px] sm:flex justify-between gap-2 lg:gap-0  ">
+        <div className="bottom-hero mt-20 md:mt-[100px] sm:flex justify-between gap-2 lg:gap-0  ">
           <div className="mb-5 md:mb-0">
             <div className="slide pb-0">
               <div className="s">

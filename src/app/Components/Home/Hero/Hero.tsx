@@ -7,7 +7,7 @@ import Line from '../../Common/Line';
 const Hero = () => {
   return (
     <Container>
-      <div className=' min-h-svh'>
+      <div className=' lg:min-h-svh'>
         <div className="hero-container flex  flex-col-reverse md:flex-row  items-center h-full  mt-16">
           <LeftHero></LeftHero>
           <div className="right-hero-content md:w-[50%] flex justify-end relative items-center pt-[20%] md:pt-[10%] ">

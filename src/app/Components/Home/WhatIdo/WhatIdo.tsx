@@ -13,13 +13,13 @@ const WhatIdo = () => {
     {
       icon: <MdWeb className='w-16 h-16 text-green-600 ' />,
       topic: "Frontend Development",
-      description: "Designing and implementing the user interface using HTML, CSS, and JavaScript frameworks like React, Vue, or Angular.",
+      description: "Designing and implementing the user interface using HTML, CSS, and JavaScript frameworks like React,Next js.",
       tasks: ["Creating responsive layouts", "Implementing interactive features", "Optimizing performance"]
     },
     {
       icon: <SiWebpack className='w-16 h-16 text-green-600'/>,
       topic: "Backend Development",
-      description: "Building and maintaining the server-side logic, databases, and APIs using languages like Node.js, Python, or Ruby.",
+      description: "Building and maintaining the server-side logic, databases, and APIs using languages like Node.js, Express js ,MongoDb",
       tasks: ["Setting up server environments", "Integrating databases", "Ensuring security and scalability"]
     },
     

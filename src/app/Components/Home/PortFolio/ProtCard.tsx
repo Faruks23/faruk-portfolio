@@ -12,7 +12,7 @@ const ProtCard = ({item}:any) => {
         data-aos-delay="50"
         data-aos-duration='1000'
 
-        className=" what-i-do-card  md:h-[450px] p-4 md:w-[400px] rounded-md ">
+        className=" what-i-do-card  lg:h-[450px] p-4 lg:w-[400px] rounded-md ">
         <div className="mb-4 overflow-hidden  flex justify-center">
           <div className=" mb-2 h-[250px] ">
             <Image width={340} height={250} src={item.image} alt="icon" className=' rounded-md hover:scale-105 duration-250 w-full p-2 in-sd-1 h-full'></Image>

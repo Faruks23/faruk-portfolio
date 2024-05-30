@@ -2,32 +2,39 @@ import { Button, Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-
 import React from 'react';
 import { AcmeLogo } from './AcmeLogo';
 import Link from 'next/link';
+import MobileNave from './MobileNave';
+import { FaAddressBook, FaHome, FaProjectDiagram, FaServicestack } from 'react-icons/fa';
 
+export const NavLink = [
+  {
+    name: 'Home',
+    path: '/',
+    icon: <FaHome className=' text-green-600'></FaHome>,
+  },
+
+  {
+    name: 'Services',
+    path: '#service',
+     icon: <FaServicestack className=' text-green-600'></FaServicestack>,
+  },
+  {
+    name: 'Portfolio',
+    path: '#portfolio',
+    icon: <FaProjectDiagram className=' text-green-600'></FaProjectDiagram>,
+  },
+  {
+    name: 'About',
+    path: '#about',
+    icon: <FaAddressBook className=' text-green-600'></FaAddressBook>,
+  },
+  {
+    name: 'Skill',
+    path: '#skill'
+  },
+]
 const Header = () => {
 
-  const NavLink = [
-    {
-      name: 'Home',
-      path: '/'
-    },
-    
-    {
-      name: 'Services',
-      path: '#service'
-    },
-    {
-      name: 'Portfolio',
-      path: '#portfolio'
-    },
-    {
-      name: 'About',
-      path: '#about'
-    },
-    {
-      name: 'Skill',
-      path: '#skill'
-    },
-  ]
+
 
   return (
     <div>
@@ -68,6 +75,8 @@ const Header = () => {
           </NavbarItem>
         </NavbarContent>
       </Navbar>
+
+      <MobileNave></MobileNave>
 
     </div>
   );

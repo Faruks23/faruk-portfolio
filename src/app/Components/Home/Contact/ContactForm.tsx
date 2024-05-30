@@ -41,8 +41,8 @@ export default function ContactForm() {
       <div data-aos="fade-up"
         data-aos-offset="100"
         data-aos-delay="50"
-        data-aos-duration='1000' className="min-h-screen flex items-center justify-center ">
-        <div className=" text-white rounded-lg  md:flex gap-8 w-full px-5 md:px0">
+        data-aos-duration='1000' className="lg:min-h-screen flex items-center justify-center mt-16 lg:mt-0 ">
+        <div className=" text-white rounded-lg  md:flex gap-8 w-full px-5 md:px-0">
           <div className=" md:w-1/3 sd-1">
             <div className="  in-sd-1 p-6 rounded-lg mb-4">
               <Image
