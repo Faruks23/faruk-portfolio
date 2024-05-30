@@ -16,7 +16,7 @@ const Hero = () => {
               data-aos-delay="50"
               data-aos-duration='1500' className="image-container max-h-[540px] sd-1 max-w-[500px]  ">
               <div  className=' mt-[-30%] '>
-                <Image  src='https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png' width={700} height={760} alt='hero-image' className=' w-full  h-full   '></Image>
+                <Image  src='/faruk1.png' width={700} height={760} alt='hero-image' className=' w-full  h-full   '></Image>
                </div>
             </div>
           </div>
