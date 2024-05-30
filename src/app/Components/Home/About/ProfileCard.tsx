@@ -10,11 +10,11 @@ export default function ProfileCard() {
         data-aos-delay="50"
         data-aos-duration='1000' className=" text-white rounded-lg p-5 lg:px-8 md:flex md:gap-8">
         <div className=" lg:w-[25%] sd-1 ">
-          <div className="mb-4 flex flex-col items-center p-4 in-sd-1 h-[250px]">
+          <div className="mb-4 flex flex-col items-center p-4 in-sd-1 max-h-[280px] overflow-hidden">
             <Image
-              src={'/contact1.png'}
+              src={'/faruk2.png'}
               alt="Profile Picture"
-              className="rounded-lg h-full"
+              className="rounded-lg h-full "
               width={300}
               height={350}
             
