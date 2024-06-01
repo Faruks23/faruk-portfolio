@@ -6,7 +6,7 @@ import Link from 'next/link';
 const MobileNave = () => {
   return (
     <div className=' block md:hidden fixed bottom-0 left-0 w-full z-50'>
-      <ul className='w-full h-[60px] bg-[#212428]  flex gap-5 items-center justify-center sd-1 py-1'>
+      <ul className='w-full h-[60px] bg-[#212428]  flex gap-5 items-center justify-center sd-1 py-2'>
         {NavLink.slice(0,4).map(link => {
           return (
             <>
