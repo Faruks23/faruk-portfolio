@@ -13,6 +13,11 @@ const PortFolio = () => {
       link:'https://zeyoxstudio.com/'
     },
     {
+      name: 'ProAcademy Sport Training website',
+      image: '/Pro-Academy (1).png',
+      link:'https://pro-academy-f6025.web.app/'
+    },
+    {
       name: 'Organic Store',
       image: '/Organic-Store.png',
       link:'https://organic-store-delta.vercel.app/'
@@ -32,11 +37,7 @@ const PortFolio = () => {
       image: '/Home-Zeyox.png',
       link:'https://zeyoxstudio.com/'
     },
-    {
-      name: 'Zeyox Studio',
-      image: '/Home-Zeyox.png',
-      link:'https://zeyoxstudio.com/'
-    },
+    
   ]
 
 
