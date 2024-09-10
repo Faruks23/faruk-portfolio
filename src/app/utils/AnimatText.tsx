@@ -21,9 +21,9 @@ export default function AnimatedText() {
       <p data-aos="fade-up"
         data-aos-offset="50"
         data-aos-delay="50"
-        data-aos-duration='1500' className="description text-lg font-light">
+        data-aos-duration='1500' className="description text-lg font-light text-justify">
         <span>
-          I use animation as a third dimension by which to simplify experiences and guiding through each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
+          I am a passionate web developer with expertise in creating dynamic and responsive websites using modern web technologies. With a focus on clean code, user-friendly design, and performance optimization, I transform ideas into engaging digital experiences. My skills include HTML, CSS, JavaScript, React, and Node.js, enabling me to build everything from sleek single-page applications to complex web platforms. I thrive on problem-solving and continuously learning new tools and technologies to stay ahead in this ever-evolving field.
         </span>
       </p>
     </>

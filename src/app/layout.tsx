@@ -24,7 +24,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-WN3MX9JR" />
       
       {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=G-S87LYRG070`}></script>
+      {/* <script async src={`https://www.googletagmanager.com/gtag/js?id=G-S87LYRG070`}></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -36,7 +36,7 @@ export default function RootLayout({
                 });
               `,
         }}
-      />
+      /> */}
       <body>
         <NextUiProvider>
           <CursorFlower />

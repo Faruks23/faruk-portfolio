@@ -40,11 +40,11 @@ export default function ProfileCard() {
         </div>
         <div className=" w-full lg:w-2/3  rounded-lg   md:pt-[80px] lg:pt-[100px]  relative ">
           
-          <div className='  mt-10 md:mt-0 sd-1   md:p-8 p-4 md:h-[350px]'>
+          <div className='  mt-10 md:mt-0 sd-1   md:p-8 p-4 md:h-[350px]   text-justify  whitespace-pre-line'>
             <h3 className="text-xl font-bold mb-2 text-[#c4cfde]">Full Stack Web Developer</h3>
 
             <div className="flex items-center mb-2">
-              <div className="flex items-center text-yellow-400">
+              <div className="flex items-center  text-yellow-400">
                 {[...Array(5)].map((_, index) => (
                   <FaStar key={index} className="w-5 h-5" />
                 ))}
