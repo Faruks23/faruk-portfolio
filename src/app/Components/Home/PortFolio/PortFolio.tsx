@@ -13,9 +13,29 @@ const PortFolio = () => {
       link:'https://zeyoxstudio.com/'
     },
     {
+      name: 'Cuvva Landing page',
+      image: '/The-Car-and-van-insurance-Cuvva.png',
+      link:'https://ephemeral-elf-5a2c25.netlify.app/'
+    },
+    {
+      name: 'Rehub 2.0 Landing page',
+      image: '/Rehub.png',
+      link:'https://rehub1.netlify.app'
+    },
+    {
+      name: 'Spoken English learning  website',
+      image: '/ELearner.png',
+      link:'https://elearner24.netlify.app/'
+    },
+    {
       name: 'ProAcademy Sport Training website',
       image: '/Pro-Academy (1).png',
       link:'https://pro-academy-f6025.web.app/'
+    },
+    {
+      name: 'Collage Admissions',
+      image: '/collage.png',
+      link:'https://endearing-strudel-c0b0a7.netlify.app/'
     },
     {
       name: 'Organic Store',
@@ -28,15 +48,11 @@ const PortFolio = () => {
       link:'https://modern-result.vercel.app/'
     },
     {
-      name: 'Zeyox Studio',
-      image: '/Home-Zeyox.png',
-      link:'https://zeyoxstudio.com/'
+      name: 'Justice Landing Page',
+      image: '/justice.png',
+      link: 'https://mdfaruksp23.netlify.app'
     },
-    {
-      name: 'Zeyox Studio',
-      image: '/Home-Zeyox.png',
-      link:'https://zeyoxstudio.com/'
-    },
+   
     
   ]
 
