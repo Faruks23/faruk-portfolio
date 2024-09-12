@@ -18,6 +18,11 @@ const PortFolio = () => {
       link:'https://ephemeral-elf-5a2c25.netlify.app/'
     },
     {
+      name: 'Gaming Frontend ',
+      image:'/Gaming.png',
+      link:'https://gaming-frontend-hr.vercel.app/'
+    },
+    {
       name: 'Rehub 2.0 Landing page',
       image: '/Rehub.png',
       link:'https://rehub1.netlify.app'
