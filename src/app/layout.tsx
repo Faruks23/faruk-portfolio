@@ -7,6 +7,7 @@ import Footer from "./Components/Common/Footer/Footer";
 import SmoothScrollWrapper from "./Components/SmoothScroll/SmothScroll";
 import CursorFlower from "./utils/CoursorFlower";
 import { GoogleTagManager } from '@next/third-parties/google'
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,8 +25,10 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-WN3MX9JR" />
       
       {/* Global Site Tag (gtag.js) - Google Analytics */}
-      {/* <script async src={`https://www.googletagmanager.com/gtag/js?id=G-S87LYRG070`}></script>
-      <script
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-S87LYRG070`} />
+      
+      <Script
+        id="google-analytics"
         dangerouslySetInnerHTML={{
           __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -36,7 +39,7 @@ export default function RootLayout({
                 });
               `,
         }}
-      /> */}
+      />
       <body>
         <NextUiProvider>
           <CursorFlower />
